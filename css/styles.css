@@ -1,0 +1,355 @@
+
+   #features{
+       text-align: center;
+   }
+   #features img{
+       margin:0 0 20px;
+   }
+   #inputMessage{
+       margin-bottom:15px;
+   }
+   footer{
+      background: #333;
+      color: #eee;
+      font-size: 11px;
+      padding: 20px; 
+   }
+
+   .product-section img{
+    width:250px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   body{
+    -webkit-font-smoothing:antialiased;
+    text-rendering: optimizeLegibility; 
+}
+.well .page-header{
+    margin-top: 0;
+}
+.well .page-header h1{
+    margin-top:0;
+}
+ul.unstyled{
+  list-style: none;
+  padding:0;
+}
+
+   #searchInput{
+       width:200px;
+   }
+   .navbar-brand{
+       padding:14px 15px;
+   } 
+
+   #myCarousel{
+       margin-top:60px;
+   }
+   .carousel-caption{
+       font-size:24px;
+   }
+ .carousel-caption h4{
+     font-size:32px;
+ }
+#myCarousel .item{
+    height:400px;
+}
+#slide1 {
+    background:url('../../images/carousel_medium_01.jpg') top center no-repeat;
+}
+#slide2{
+    background:url('../../images/carousel_medium_02.jpg') top center no-repeat;
+}
+#slide3{
+    background:url('../../images/carousel_medium_03.jpg') top center no-repeat;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   .alert{
+       margin-top:20px;
+       display: none;
+   }
+   .well{
+       margin:20px 0;
+   }
+  .tabbable img.thumbnail{
+      margin:0 10px 20px 0;
+  }
+   
+  .thumbnails{
+      margin:20px 0;
+  }
+  .thumbnail {
+      position:relative;
+  }
+  .thumbnail h3{
+      font-size: 16px;
+      margin:0 0 10px;
+      line-height:20px;
+    }  
+  .thumbnail .price{
+      font-size: 22px;
+      position: absolute;
+      top:-10px;
+      right:-10px;
+      padding:10px;
+  }
+  .thumbnail span.glyphicon{
+      margin-right: 5px;
+  }
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	.thumbnail .price{
+        font-size: 14px;
+
+    }
+    .thumbnail .price sup{
+        font-size:10px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#myCarousel .item{
+        height:310px;
+    }
+    #slide1 {
+        background:url('../../images/carousel_small_01.jpg') top center no-repeat;
+    }
+    #slide2{
+        background:url('../../images/carousel_small_02.jpg') top center no-repeat;
+    }
+    #slide3{
+        background:url('../../images/carousel_small_03.jpg') top center no-repeat;
+    }
+    .carousel-caption{
+        font-size:16px;
+    }
+    .carousel-caption h4{
+        font-size: 24px;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    #myCarousel .item{
+        height:500px;
+    }
+    #slide1 {
+        background:url('../../images/carousel_large_01.jpg') top center no-repeat;
+    }
+    #slide2{
+        background:url('../../images/carousel_large_02.jpg') top center no-repeat;
+    }
+    #slide3{
+        background:url('../../images/carousel_large_03.jpg') top center no-repeat;
+    }
+	
+}
+
+.jumbotron-text{
+    font-family: 'Stylish', sans-serif
+}
+.cri{
+    font-family: 'Kodchasan', sans-serif;
+}
+
+/*css for jumbotron */
+body{
+    margin-top: 50px;
+}
+
+         #quote{
+        position: relative;
+        text-align: center;
+        color:white;
+        font-family: sans-serif;
+        font-display: center;
+      
+    }
+    
+    
+
+
+.images{
+    width: 100%;   
+}
+.picture {
+    width: 100%;
+  }
+.carousel-inner{
+    width:100%;
+    max-height: 400px;
+  }
+
+  .main{
+      text-align: center;
+      
+  }
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding:  0;
+    margin-top: 20px;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #007b5e !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+.mapouter {
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/*  From Medium Devices Up To Larger Devices
+ /* ---------------------------------------------------------------------- */
+ @media (min-width: 980px) and (max-width: 1199px) {
+    
+}
+    /* ---------------------------------------------------------------------- */
+    /*  Only larger Devices
+     /* ---------------------------------------------------------------------- */
+    @media (min-width: 1200px) {
+        #quote{
+            font-size: 40px;
+        }
+        
+    }
+      
+    
+    /* ---------------------------------------------------------------------- */
+    /*  From Small Devices Up To Medium Devices
+     /* ---------------------------------------------------------------------- */
+    @media (min-width: 768px) and (max-width: 979px) {
+        
+    }
+    /* ---------------------------------------------------------------------- */
+    /*  Extra Small Devices Only
+    /* ---------------------------------------------------------------------- */
+    @media (max-width: 767px) {
+        
+        #quote{
+            font-size: 25px;
+        } 
+    }
+    /* ---------------------------------------------------------------------- */
+    /*  Extra Small Devices Only
+    /* ---------------------------------------------------------------------- */
+    @media (max-width: 480px) {
+        #quote{
+            font-size: 22px;
+        } 
+       
+    }
+   
+    @media (max-width: 979px) {
+        /***
+         general body settings
+         ***/
+
+    
+    }
+   
+    @media (min-width: 768px) {
+        #quote{
+            font-size: 25px;
+        } 
+    }   
+
+    .jumbotron-text{
+        font-family: 'Stylish', sans-serif
+    }
+
+    .cri{
+        font-family: 'Kodchasan', sans-serif;
+    }
